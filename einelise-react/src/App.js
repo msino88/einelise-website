@@ -15,6 +15,7 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/social_media" element={<SocialMedia />} />
+                
             </Routes>
         </Router>
     );
