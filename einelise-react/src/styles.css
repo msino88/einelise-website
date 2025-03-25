@@ -53,6 +53,16 @@ footer {
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
+
+  .panel-stats h1 {
+    text-align: center;
+  }
+
+  .panel-stats p,
+
+  .panel-stats ul {
+    text-align: left;
+  }
   
   .panel-tricks {
     background-color: #fffbe7;
@@ -60,7 +70,16 @@ footer {
     margin-top: 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
-  
+  .panel-tricks h2 {
+    text-align: center;
+  }
+
+  .panel-tricks p,
+
+  .panel-tricks ul {
+    text-align: left;
+  }
+
   ul {
     padding-left: 0 px;
   }
