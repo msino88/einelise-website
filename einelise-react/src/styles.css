@@ -11,7 +11,39 @@ header {
     padding: 20px;
     border-radius: 10px;
 }
+.home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative; /* Needed for pseudo-elements */
+  z-index: 1; /* Ensure content stays above the background */
+}
 
+.home-container::before,
+.home-container::after {
+  content: '';
+  position: fixed; /* Make the pseudo-elements fixed to the viewport */
+  top: 0;
+  bottom: 0;
+  width: 500px; /* Adjust width for the image size */
+  background-size: auto; /* Ensure the image covers the pseudo-element */
+  background-repeat: repeat; /* Repeat the image vertically */
+  background-position: center; /* Center the image horizontally */
+  z-index: -1; /* Place the pseudo-elements behind the content */
+}
+
+.home-container::before {
+  left: 0; /* Position the left background */
+  background-image: url('../public/images/corgi-background.jpg'); /* Replace with the correct path to your image */
+}
+
+.home-container::after {
+  right: 0; /* Position the right background */
+  background-image: url('../public/images/corgi-background.jpg'); /* Replace with the correct path to your image */
+}
 section {
     margin: 20px auto;
     padding: 15px;
@@ -29,7 +61,7 @@ img {
 
 
 a {
-    color: #FF8C00;
+    color: #ff9900;
     font-weight: bold;
 }
 
@@ -47,6 +79,13 @@ footer {
     margin: 0 auto;
   }
   
+  .panel-bio {
+    background-color:#fffbe7;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+  }
+
   .panel-stats {
     background-color: #fffbe7;
     padding: 20px;
@@ -54,20 +93,21 @@ footer {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
 
-  .panel-stats h1 {
-    text-align: center;
-  }
+    .panel-stats h1 {
+      text-align: center;
+    }
 
-  .panel-stats p,
+    .panel-stats p,
 
-  .panel-stats ul {
-    text-align: left;
-  }
+    .panel-stats ul {
+      text-align: left;
+    }
   
   .panel-tricks {
     background-color: #fffbe7;
     padding: 20px;
     margin-top: 0;
+    border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   .panel-tricks h2 {
