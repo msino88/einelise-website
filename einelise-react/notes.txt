@@ -6,7 +6,7 @@ host the website on a server/database
 
 add some more images to the website
 
-add an embeed instagram application within the social media page
+add an embed instagram application within the social media page
 
 add a way for users to create their own blog posts
 

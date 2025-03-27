@@ -5,7 +5,7 @@ export default function Home() {
     const ageInWeeks = Math.floor((today - birthDate) / (1000 * 60 * 60 * 24 * 7));
 
     // Biography, stats, and favorite things
-    const bio = "Hi fren! Welcome to my webpage, designed by my doting parents Michael Wang and Taisia Goncharouk! My parents love to make me do radical tricks, take sploot naps, and eat yummy nomz!"
+    const bio = "Hi frens! Welcome to my webpage, designed by my doting parents Michael Wang and Taisia Goncharouk! My parents love to make me do radical tricks, take sploot naps, and eat yummy nomz!"
     const stats = ""
     const favoriteThings = ["my hooman servants", "pink chew toy", "treats!", "walkies", "flirt pole", "zoomies", "baby carrots", "frens"]
 
