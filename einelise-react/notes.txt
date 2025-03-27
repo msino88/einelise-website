@@ -1,0 +1,15 @@
+create self-scheduled timeline/plan
+
+add cookie functianolity to see what users are visiting the Website
+
+host the website on a server/database
+
+add some more images to the website
+
+add an embeed instagram application within the social media page
+
+add a way for users to create their own blog posts
+
+look at security features to see if anything could possibly get leaked in the javascript or html files
+
+create ability to hover over social media icons and show alt text

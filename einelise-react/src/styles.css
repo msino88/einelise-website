@@ -11,15 +11,14 @@ header {
     padding: 20px;
     border-radius: 10px;
 }
+
 .home-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 30px;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
-  position: relative; /* Needed for pseudo-elements */
-  z-index: 1; /* Ensure content stays above the background */
 }
 
 .home-container::before,
@@ -44,6 +43,7 @@ header {
   right: 0; /* Position the right background */
   background-image: url('../public/images/corgi-background.jpg'); /* Replace with the correct path to your image */
 }
+
 section {
     margin: 20px auto;
     padding: 15px;
@@ -59,7 +59,6 @@ img {
 
 }
 
-
 a {
     color: #ff9900;
     font-weight: bold;
@@ -70,14 +69,7 @@ footer {
     font-size: 14px;
 }
 
-.home-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 30px;
-    max-width: 800px;
-    margin: 0 auto;
-  }
+
   
   .panel-bio {
     background-color:#fffbe7;
@@ -93,13 +85,13 @@ footer {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
 
-    .panel-stats h1 {
+  .panel-stats h1 {
       text-align: center;
     }
 
-    .panel-stats p,
+  .panel-stats p,
 
-    .panel-stats ul {
+  .panel-stats ul {
       text-align: left;
     }
   
@@ -122,5 +114,20 @@ footer {
 
   ul {
     padding-left: 0 px;
+  }
+
+  .favorite-things {
+    background-color: #fffbe7;
+    padding: 20px;
+    margin-top: 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .favorite-things h2{
+    text-align: center;
+  }
+
+  .favorite-things ul {
+    text-align: left;
   }
   
